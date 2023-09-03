@@ -1,0 +1,7 @@
+.tasksArea {
+	min-height: 40px;
+}
+
+.taskDone {
+	text-decoration: line-through;
+}
