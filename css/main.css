@@ -1,0 +1,64 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+
+.body {
+	margin: 0 auto;
+	max-width: 1000px;
+	height: 100vh;
+	font-family: "Lato", sans-serif;
+	background-color: #ddd;
+}
+
+.container {
+	margin: 10px 30px;
+}
+
+.header__title {
+	font-weight: 900;
+}
+
+.section {
+	background-color: #fff;
+}
+
+.section__title {
+	padding: 20px;
+	font-weight: 900;
+	border-bottom: 2px solid #ddd;
+}
+
+.form {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0 20px 20px 20px;
+}
+
+.form__newTask {
+	flex-grow: 1;
+	margin-right: 20px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.form__sendTaskButton {
+	padding: 10px;
+	background-color: teal;
+	color: #fff;
+	border: none;
+}
+
+.tasksArea {
+	min-height: 40px;
+}
+
+.taskDone {
+	text-decoration: line-through;
+}
