@@ -1,6 +1,5 @@
 .form {
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
 	padding: 0 20px 20px 20px;
 }
@@ -17,4 +16,19 @@
 	background-color: teal;
 	color: #fff;
 	border: none;
+}
+
+@media (max-width: 576px) {
+	.form {
+		flex-direction: column;
+	}
+
+	.form__newTask {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.form__sendTaskButton {
+		flex-grow: 1;
+	}
 }
