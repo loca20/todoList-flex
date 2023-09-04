@@ -52,9 +52,9 @@
 			htmlString += `
         <li class="task${task.done ? " taskDone" : ""}">
 		<button class="task__button js-done">
-		<i class="task__buttonIcon fa-solid fa-check"></i></button>
+		<i class="fa-solid fa-check${task.done ? "" : " task__buttonIcon"}"></i></button>
         <span class="task__content">${task.content}</span>
-        <button class="task__buttonIcon task__button task__button--remove js-remove">
+        <button class="task__button task__button--remove js-remove">
 		<i class="fa-regular fa-trash-can"></i></button>
         </li>
         `;
