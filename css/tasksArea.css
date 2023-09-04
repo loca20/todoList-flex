@@ -10,6 +10,7 @@
 .task {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 10px;
 	border-bottom: 1px solid #ddd;
 }
@@ -17,6 +18,20 @@
 .task__content {
 	margin: 0 10px;
 	flex-grow: 1;
+}
+
+.task__button {
+	padding: 7px 10px;
+	background-color: #060;
+	border: none;
+}
+
+.task__button--remove {
+	background-color: #d00;
+}
+
+.task__buttonIcon {
+	color: #fff;
 }
 
 .taskDone {
