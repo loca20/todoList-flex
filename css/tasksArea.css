@@ -8,8 +8,15 @@
 }
 
 .task {
+	display: flex;
+	justify-content: space-between;
 	padding: 10px;
 	border-bottom: 1px solid #ddd;
+}
+
+.task__content {
+	margin: 0 10px;
+	flex-grow: 1;
 }
 
 .taskDone {
