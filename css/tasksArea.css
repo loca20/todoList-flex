@@ -2,6 +2,16 @@
 	min-height: 40px;
 }
 
+.tasks {
+	padding: 20px;
+	list-style-type: none;
+}
+
+.task {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
 .taskDone {
 	text-decoration: line-through;
 }
